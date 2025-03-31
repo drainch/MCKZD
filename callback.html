@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Callback</title>
+</head>
+<body>
+  <h1>Spotify OAuth Callback</h1>
+  <p>If you see this message, the OAuth flow is working. Check the URL for the authorization code.</p>
+  <p>Authorization code: <span id="auth-code"></span></p>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    document.getElementById('auth-code').textContent = code;
+  </script>
+</body>
+</html>
