@@ -1,0 +1,22 @@
+{
+  "Soft": {
+    "tempo": [60, 85],
+    "texture": "lo-fi, acoustic, mellow",
+    "genres": ["ambient", "dream pop", "lofi hip-hop"]
+  },
+  "Focused": {
+    "tempo": [80, 110],
+    "texture": "minimal, steady rhythm",
+    "genres": ["electronic", "instrumental hip-hop", "post-rock"]
+  },
+  "Grounded": {
+    "tempo": [70, 100],
+    "texture": "earthy, rich, natural percussion",
+    "genres": ["neo-soul", "jazz", "folk"]
+  },
+  "Expansive": {
+    "tempo": [90, 130],
+    "texture": "bright, reverb-heavy, cinematic",
+    "genres": ["synthpop", "electropop", "chillwave"]
+  }
+}
